@@ -1,4 +1,6 @@
-// Base class
+// write a program which has 3 class.
+// show the example of method overloading and overriding.
+// keep a static variable and set it from both class and print the value on calling method.
 class Animal {
   static String breed = 'Unknown';
 
@@ -11,7 +13,6 @@ class Animal {
   }
 }
 
-// Derived class
 class Dog extends Animal {
   static String breed = 'Dog';
 
